@@ -2,31 +2,39 @@
 <html lang="en">
 
 <head>
+
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    
 </head>
-
 <body>
     <form>
-        <label for="fName" required>First Name</label><br>
-        <input type="text" id="fName"><br>
-        <label for="Smoothie">Choose a Flavor</label><br>
+        <label for="fName" >Name</label>
+        <input type="text" id="fName" required><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="Smoothie">Choose a Flavor:</label>
         <select name="smoothieType" id="Smothie" required>
             <option value="Strawberry">Strawberry</option>
             <option value="Chocolate">Chocolate</option>
             <option value="Cookie">Cookie</option>
-        </select><br>
+        </select>
+        <br>
         <fieldset>
-        <legend>Smoothie Size:</legend>
-        <input type="radio" id="smoothieSmall" name="smoothieSize" value="Small" required>
-        <label for="smoothieSmall">Small $10</label><br>
-        <input type="radio" id="smoothieMedium" name="smoothieSize" value="Medium">
-        <label for="SmoothieMedium">Medium $12</label><br>
-        <input type="radio" id="smoothieLarge" name="smoothieSize" value="Large">
-        <label for="SmoothieLarge">Large $15</label><br>
-    </fieldset>
-        <input type="submit" value="Submit">
+            <legend>Smoothie Size:</legend>
+            <input type="radio" id="smoothieSmall" name="smoothieSize" value="Small" required>
+            <label for="smoothieSmall">Small $10</label><br>
+            <input type="radio" id="smoothieMedium" name="smoothieSize" value="Medium">
+            <label for="SmoothieMedium">Medium $12</label><br>
+            <input type="radio" id="smoothieLarge" name="smoothieSize" value="Large">
+            <label for="SmoothieLarge">Large $15</label><br>
+        </fieldset>
+        <input type="submit" id="butonSubmit" value="Submit">
     </form>
 </body>
 
