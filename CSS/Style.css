@@ -26,3 +26,8 @@ form #butonSubmit {
     justify-content: center;
     margin: 20px auto;
 }
+
+h1{
+    font-size: 2em;
+    text-align: center;
+}
