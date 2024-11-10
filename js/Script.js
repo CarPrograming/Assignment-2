@@ -57,7 +57,7 @@ selectedElement.addEventListener("change", function() {
 
 
 
-// Resources Used for my javascript
+// Resources Used for my javascript:
 
 // For object creation: https://www.w3schools.com/js/js_object_definition.asp
 
@@ -65,3 +65,5 @@ selectedElement.addEventListener("change", function() {
 
 //The feature change event, to be able to change color of the background when user select an element. 
 //I got it this site: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
+
+//borders of my form https://www.w3schools.com/cssref/playdemo.php?filename=playcss_border-style&preval=groove
