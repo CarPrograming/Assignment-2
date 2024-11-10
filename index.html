@@ -9,12 +9,13 @@
     <title>Form</title>
     <link rel="stylesheet" href="CSS/Style.css">
     
+    
 </head>
 <body>
-    <form>
-        <h1>Order your smoothie</h1>
+    <form name="myForm" id="smoothieForm">
+        <h1>Order your smoothie</h1> 
         <label for="fName" >Name</label>
-        <input type="text" id="fName" required><br>
+        <input type="text" id="fName" name="fName" required><br>
 
         <label for="email">Email</label>
         <input type="email" id="email" name="email" required><br>
@@ -29,14 +30,15 @@
         <fieldset>
             <legend>Smoothie Size:</legend>
             <input type="radio" id="smoothieSmall" name="smoothieSize" value="Small" required>
-            <label for="smoothieSmall">Small $10</label><br>
+            <label for="smoothieSmall">Small</label><br>
             <input type="radio" id="smoothieMedium" name="smoothieSize" value="Medium">
-            <label for="SmoothieMedium">Medium $12</label><br>
+            <label for="SmoothieMedium">Medium</label><br>
             <input type="radio" id="smoothieLarge" name="smoothieSize" value="Large">
-            <label for="SmoothieLarge">Large $15</label><br>
+            <label for="SmoothieLarge">Large</label><br>
         </fieldset>
-        <input type="submit" id="butonSubmit" value="Submit">
+        <input type="submit" id="butonSubmit" name="submit">
     </form>
+    <script src="js/Script.js"></script>
 </body>
 
 </html>
