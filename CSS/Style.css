@@ -7,18 +7,20 @@ body{
 
 }
 
-#container{
-  
+#Container{
+    width: 20%;
+    height: auto;
 }
 
-form{
+#smoothieForm{
     
     background-color: rgb(255, 255, 255);
     align-items: center;
     width: 100%;
     height: auto;
     padding: 20px;
-    border: 10px dashed rgb(3, 3, 3);
+    border: 10px dashed;
+    border-color: rgb(210, 105, 30, 0.705);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 2, 0.1);
 }

@@ -45,13 +45,16 @@ selectedElement.addEventListener("change", function() {
 
     if (smothieColor == "Strawberry"){
         document.body.style.backgroundColor = "pink";
+        smoothieForm.style.borderColor="pink";
+        
     }
     else if (smothieColor == "Chocolate") {
         document.body.style.backgroundColor = "brown";
+        smoothieForm.style.borderColor ="brown";
         
     } else if (smothieColor =="Cookie") {
         document.body.style.backgroundColor = "sandybrown";
-        
+        smoothieForm.style.borderColor="sandybrown";
     }
   });
 
