@@ -1,3 +1,5 @@
+
+/*making my body a flex container,center anything in there and setting backgoudn color*/
 body{
     display: flex;
     justify-content: center;
@@ -6,12 +8,12 @@ body{
     background-color: rgba(210, 105, 30, 0.705);
 
 }
-
+/*setting how big will be my container that contain my form*/
 #Container{
     width: 20%;
     height: auto;
 }
-
+/* setting color of backgourd and color of borders setiing the size, this will be use all container*/
 #smoothieForm{
     
     background-color: rgb(255, 255, 255);
@@ -24,18 +26,18 @@ body{
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 2, 0.1);
 }
-
+/*margin between each tag*/
 label,input, select,fieldset,option{
     margin-bottom: 10px;
 }
-
+/*making my botton flex container and centering an making bigger the botton.*/
 form #butonSubmit {
     display: flex;
     justify-content: center;
     margin: 20px auto;
     padding: 10px;
 }
-
+/*size of the h1*/
 h1{
     font-size: 2em;
     text-align: center;

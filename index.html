@@ -7,12 +7,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <!-- link my css in my index--->
     <link rel="stylesheet" href="CSS/Style.css">
     
     
 </head>
 <body>
+    <!--creating a container for my form-->
     <div id="Container">
+        <!--my form-->
     <form name="myForm" id="smoothieForm">
         <h1>Order your smoothie</h1> 
         <label for="fName" >Name:</label>
@@ -20,7 +23,7 @@
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
-
+        <!--options to be select-->
         <label for="Smoothie">Choose a Flavor:</label>
         <select name="smoothieType" id="Smothie" required>
             <option value="Strawberry">Strawberry</option>
@@ -28,6 +31,7 @@
             <option value="Cookie">Cookie</option>
         </select>
         <br>
+        <!--field set for my radio bottons-->
         <fieldset>
             <legend>Smoothie Size:</legend>
             <input type="radio" id="smoothieSmall" name="smoothieSize" value="Small" required>
@@ -41,6 +45,7 @@
     </form>
     
 </div>
+<!--my javascript file-->
 <script src="js/Script.js"></script>
 </body>
 
