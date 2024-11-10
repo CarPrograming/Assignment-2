@@ -20,7 +20,7 @@ function ShowAlert(objectFromForm){
     
     
     //getting the values from my object  in a string to save them in a variable
-    let greeting = `Hi,${objectFromForm.name} we sent the recept to ${objectFromForm.email} about your Order Details, You selected a ${objectFromForm.Size} ${objectFromForm.Flavor} Smoothie .`
+    let greeting = `Hi,${objectFromForm.name} You Order a ${objectFromForm.Size} ${objectFromForm.Flavor} Smoothie, we sent the recept and the details of your order to ${objectFromForm.email}`
     
     //display the variable freeting
     alert(greeting);
@@ -66,4 +66,4 @@ selectedElement.addEventListener("change", function() {
 //The feature change event, to be able to change color of the background when user select an element. 
 //I got it this site: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event
 
-//borders of my form https://www.w3schools.com/cssref/playdemo.php?filename=playcss_border-style&preval=groove
+//borders of my form: https://www.w3schools.com/cssref/playdemo.php?filename=playcss_border-style&preval=groove
