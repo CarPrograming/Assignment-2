@@ -3,18 +3,20 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: rgba(210, 105, 30, 0.705);
 
 }
 
-form{
 
+form{
+    background-color: rgb(255, 255, 255);
     align-items: center;
-    width: 25%;
+    width: 100%;
     height: auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 2, 0.1);
 }
 
 label,input, select,fieldset,option{
@@ -25,6 +27,7 @@ form #butonSubmit {
     display: flex;
     justify-content: center;
     margin: 20px auto;
+    padding: 10px;
 }
 
 h1{
